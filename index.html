@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midnight Sushi</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="headerContainer">
+        <div class="authContainer">
+            <div>
+                <a href="">Login</a> /
+                <a href="">Sign up</a>
+            </div>
+        </div>
+        <div class="logoAndTitleContainer">
+            <img src="images/crescent.svg" class="Logomoon" />
+            <div class="titleOfCompany">Midnight Sushi</div>
+        </div>
+        <div class="searchContainer">
+            <form action="/search" method="get">
+                <input type="text" name="search" placeholder="Search" class="searchBar" />
+            </form>
+        </div>
+    </header>
+    <nav>
+        <ul class="navlistContainer">
+            <li><a href="#">Home</a></li> 
+            <li class="active"><a href="#">Shop</a> 
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Contact</a></li> 
+        </ul>
+    </nav>
+    <div class="slideshow"> 
+        <div class="cycle-slideshow">
+            <img src="images/sushi1.svg">
+            <img src="images/sushi2.svg">
+            <img src="images/sushi3.svg">
+            <img src="images/sushi4.svg">
+        </div>
+    </div>
+    <div class="Buttoncontainer">
+        <button type="button" class="Sushibutton">View Sushi</button>
+    </div>
+    <footer class="footerContainer">
+        <div class="footerLinksContainer">
+            <ul class="footerLinksLeft">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li> 
+            </ul>
+            <ul class="footerLinksRight">
+                <li><a href="#">Refund Policy</a></li> 
+                <li><a href="#">Term of Service</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Delivery</a></li>
+            </ul>
+        </div> 
+        <div class="Credits">
+            <p>&copy; 2023 Midnight Sushi. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+</body>
+</html>

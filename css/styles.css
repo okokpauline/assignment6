@@ -1,0 +1,135 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.authContainer {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerContainer > div a {
+text-decoration: none;
+}
+.logoAndTitleContainer {
+    display: flex;
+}
+.Logomoon {
+    width: 80px;
+    transform: translate(38px, 0px) rotate(25deg);
+}
+.titleOfCompany {
+    color: rgb(33, 29, 29);
+    font-family: carry you;
+    font-size: 7vw; 
+    font-weight: lighter;
+}
+.searchBar {
+    border-radius: 15px;
+    border: 1px none;
+    background-color: rgba(154, 164, 160, 0.258);
+    width: 260px;
+    height: 35px;
+}
+.searchBar::placeholder {
+    text-align: start;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+.cycle-slideshow {
+    width: 100%;
+}
+.cycle-slideshow img {
+    width: 100%;
+
+}
+.navlistContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+}
+.navlistContainer li.active a {
+    font-weight: bold;
+    color: #333;
+}
+.navlistContainer li a {
+    text-decoration: none;
+    color:black
+}
+.navlistContainer li a:hover {
+    color: #d3d5db;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sushibutton {
+    border-radius: 15px;
+    width: 20%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    background-color:rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+.footerContainer {
+    border-top: 1px solid #d3d5db;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.footerLinksContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footerLinksContainer li a {  
+    text-decoration: none;
+    color:#d3d5db;
+}
+.footerLinksContainer {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    display: flex;
+    width: 100%;
+}
+.footerLinksRight {
+    margin-left: 20px;
+}
+.Credits {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.Credits p {
+    margin-left: 300px;
+}
